@@ -19,13 +19,29 @@ A full-stack web application for booking and managing doctor appointments, built
 -client
    ----public
    ----src
+
+   
 -config
+
+
 -controllers
+
+
 -middlewares
+
+
 -models
+
+
 -routes
+
+
 -.env
+
+
 -server.js
+
+
 -README.md
 
 
