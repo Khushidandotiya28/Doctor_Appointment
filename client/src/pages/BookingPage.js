@@ -100,7 +100,7 @@ const BookingPage = () => {
   }, []);
   return (
     <Layout>
-      <h3>Booking Page</h3>
+      <h3 className="text-center">Booking Page</h3>
       <div className="container m-2">
         {doctors && (
           <div>

@@ -23,7 +23,7 @@ const ApplyDoctor = () => {
           timings: [
             moment(values.timings[0]).format("HH:mm"),
             moment(values.timings[1]).format("HH:mm"),
-          ],
+          ]
         },
         {
           headers: {

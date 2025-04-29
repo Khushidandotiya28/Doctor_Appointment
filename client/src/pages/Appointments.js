@@ -63,7 +63,7 @@ const Appointments = () => {
 
   return (
     <Layout>
-      <h1>Appoinmtnets Lists</h1>
+      <h3 className="text-center">Appointments List</h3>
       <Table columns={columns} dataSource={appointments} />
     </Layout>
   );

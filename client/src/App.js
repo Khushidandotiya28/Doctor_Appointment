@@ -10,18 +10,17 @@ import ApplyDoctor from "./pages/ApplyDoctor";
 import NotificationPage from "./pages/NotificationPage";
 import Users from "./pages/admin/Users";
 import Doctors from "./pages/admin/Doctors";
-import Profile from "./pages/doctor/Profile";
+import Profile from "./pages/Doctor/Profile";
 import BookingPage from "./pages/BookingPage";
 import Appointments from "./pages/Appointments";
-import DoctorAppointments from "./pages/doctor/DoctorAppointments";
+import DoctorAppointments from "./pages/Doctor/DoctorAppointments"
 function App() {
   const { loading } = useSelector((state) => state.alerts);
   return (
     <>
       <BrowserRouter>
-        {loading ? (
-          <Spinner />
-        ) : (
+      <div>
+      {loading && <Spinner />}
           <Routes>
             <Route
               path="/apply-doctor"
@@ -112,7 +111,8 @@ function App() {
               }
             />
           </Routes>
-        )}
+        
+        </div>
       </BrowserRouter>
     </>
   );
