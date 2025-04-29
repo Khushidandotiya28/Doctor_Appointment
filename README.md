@@ -114,35 +114,73 @@ This will start the frontend on http://localhost:5173 (Vite default port).
 
 
 🧩 Technologies Used
+
+
 Frontend: React.js, React Router, Axios, Tailwind CSS / Bootstrap
+
+
 Backend: Node.js, Express.js, Mongoose
+
+
 Database: MongoDB
+
+
 Authentication: JWT
+
+
 State Management: Context API / Redux 
+
+
 Notifications: webSockets
 
 
 📦 Dependencies (Backend)
 To install the backend dependencies, run the following command in directory:
+```bash
 npm install
+```
 
 Backend Dependencies:
+```bash
 express mongoose dotenv cors bcryptjs jsonwebtoken nodemon
+```
 
 express: Web framework for Node.js
+
+
 mongoose: MongoDB ODM
+
+
 dotenv: Loads environment variables
+
+
 cors: Cross-origin resource sharing
+
+
 bcryptjs: For hashing passwords
+
+
 jsonwebtoken: For JWT-based authentication
+
+
 nodemon: Automatically restarts the server on changes
 
 
 📦 Dependencies (Frontend)
+
+
 To install the frontend dependencies, run the following command in the client directory:
+```bash
 npm install
+```
+
+
 Frontend Dependencies:
+```bash
 axios react-router-dom
+```
 
 axios: For making HTTP requests to the backend
+
+
 react-router-dom: For routing between pages
