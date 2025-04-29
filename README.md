@@ -1,16 +1,121 @@
-🚀 A full-stack MERN web application for seamless online doctor appointment booking.
-Effortlessly book, manage, and track doctor appointments with a secure and user-friendly interface.
+# 🏥 Doctor Appointment Booking System
 
-🌟 Features
-✅ User Authentication (Sign Up/Login)
-✅ Book & Manage Appointments
-✅ Real-Time Notifications
-✅ Doctor Profile & Availability
+A full-stack web application for booking and managing doctor appointments, built with **MongoDB**, **Express.js**, **React.js**, and **Node.js** (MERN stack). This platform allows patients to book appointments with doctors and lets doctors manage their schedules.
 
-🛠️Tech Stack      
-Frontend:	React.js, Redux, Tailwind CSS
-Backend:	Node.js, Express.js
-Database:	MongoDB (Mongoose)
-Authentication:	JWT (JSON Web Token)
-State Management:	Redux 
+---
 
+## 🚀 Features
+
+- **Patient and Doctor Authentication** (JWT-based)
+- **Doctor Profile Management**
+- **Book / Cancel Appointments**
+- **Admin Dashboard** 
+- **Real-time Notifications** 
+- **Responsive UI**
+
+---
+
+## 📁 Folder Structure---
+client
+   ----public
+   ----src
+config
+controllers
+middlewares
+models
+routes
+.env
+server.js
+README.md
+
+
+---
+
+## ⚙️ Prerequisites
+
+Ensure you have the following installed:
+
+- **Node.js** 
+- **npm**
+- **MongoDB** (local or MongoDB Atlas)
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/doctor-appointment.git
+cd doctor-appointment
+
+2.Backend Setup (Node.js / Express)
+cd doctor-appointment
+npm install
+
+Create .env File 
+create a .env file and add the following configuration:
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+--PORT: The port where your backend will run (default: 5000).
+--MONGO_URI: MongoDB connection string .
+--JWT_SECRET: A secret key for JWT token encryption.
+
+3. Frontend Setup (React)
+cd ../client
+npm install
+
+add following info. in .env file
+VITE_API_URL=http://localhost:5000
+This variable defines the API URL that your frontend will use to make requests to the backend.
+
+
+▶️ Running the Application
+1. Start the Backend
+Navigate to the doctor-appointment directory and run the backend:
+   cd doctor-appointment
+   node server.js
+This will start the server on http://localhost:5000.
+
+2. Start the Frontend
+In a new terminal window, navigate to the client directory and run the frontend:
+   cd client
+   npm start
+This will start the frontend on http://localhost:5173 (Vite default port).
+
+
+🧩 Technologies Used
+Frontend: React.js, React Router, Axios, Tailwind CSS / Bootstrap
+Backend: Node.js, Express.js, Mongoose
+Database: MongoDB
+Authentication: JWT
+State Management: Context API / Redux 
+Notifications: webSockets
+
+
+📦 Dependencies (Backend)
+To install the backend dependencies, run the following command in directory:
+npm install
+
+Backend Dependencies:
+express mongoose dotenv cors bcryptjs jsonwebtoken nodemon
+
+express: Web framework for Node.js
+mongoose: MongoDB ODM
+dotenv: Loads environment variables
+cors: Cross-origin resource sharing
+bcryptjs: For hashing passwords
+jsonwebtoken: For JWT-based authentication
+nodemon: Automatically restarts the server on changes
+
+
+📦 Dependencies (Frontend)
+To install the frontend dependencies, run the following command in the client directory:
+npm install
+Frontend Dependencies:
+axios react-router-dom
+
+axios: For making HTTP requests to the backend
+react-router-dom: For routing between pages
