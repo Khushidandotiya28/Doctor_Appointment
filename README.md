@@ -16,17 +16,17 @@ A full-stack web application for booking and managing doctor appointments, built
 ---
 
 ## 📁 Folder Structure---
-client
+-client
    ----public
    ----src
-config
-controllers
-middlewares
-models
-routes
-.env
-server.js
-README.md
+-config
+-controllers
+-middlewares
+-models
+-routes
+-.env
+-server.js
+-README.md
 
 
 ---
@@ -48,41 +48,52 @@ Ensure you have the following installed:
 ```bash
 git clone https://github.com/yourusername/doctor-appointment.git
 cd doctor-appointment
+```
 
 2.Backend Setup (Node.js / Express)
+```bash
 cd doctor-appointment
 npm install
+```
 
 Create .env File 
 create a .env file and add the following configuration:
+```bash
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-
---PORT: The port where your backend will run (default: 5000).
---MONGO_URI: MongoDB connection string .
---JWT_SECRET: A secret key for JWT token encryption.
+```
+PORT: The port where your backend will run (default: 5000).
+MONGO_URI: MongoDB connection string .
+JWT_SECRET: A secret key for JWT token encryption.
 
 3. Frontend Setup (React)
+```bash
 cd ../client
 npm install
-
+```
 add following info. in .env file
+```bash
 VITE_API_URL=http://localhost:5000
-This variable defines the API URL that your frontend will use to make requests to the backend.
+```
+This variable defines the API URL that frontend will use to make requests to the backend.
 
 
 ▶️ Running the Application
 1. Start the Backend
 Navigate to the doctor-appointment directory and run the backend:
-   cd doctor-appointment
-   node server.js
+```bash
+cd doctor-appointment
+node server.js
+```
 This will start the server on http://localhost:5000.
 
-2. Start the Frontend
+3. Start the Frontend
 In a new terminal window, navigate to the client directory and run the frontend:
-   cd client
-   npm start
+```bash
+cd client
+npm start
+```
 This will start the frontend on http://localhost:5173 (Vite default port).
 
 
