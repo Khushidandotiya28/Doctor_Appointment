@@ -135,6 +135,7 @@ Notifications: webSockets
 
 
 📦 Dependencies (Backend)
+
 To install the backend dependencies, run the following command in directory:
 ```bash
 npm install
