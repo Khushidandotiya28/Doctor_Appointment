@@ -80,7 +80,11 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 ```
 PORT: The port where your backend will run (default: 5000).
+
+
 MONGO_URI: MongoDB connection string .
+
+
 JWT_SECRET: A secret key for JWT token encryption.
 
 3. Frontend Setup (React)
