@@ -18,10 +18,6 @@ A full-stack web application for booking and managing doctor appointments, built
 ## 📁 Folder Structure---
 -client
 
-  -public
-
-  -src
-
    
 -config
 
