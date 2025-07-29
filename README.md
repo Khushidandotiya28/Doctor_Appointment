@@ -30,13 +30,17 @@ Ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/doctor-appointment.git
+git clone https://github.com/khushidandotiya28/doctor-appointment.git
+```
+```bash
 cd doctor-appointment
 ```
 
 2.Backend Setup (Node.js / Express)
 ```bash
 cd doctor-appointment
+```
+```bash
 npm install
 ```
 
@@ -58,6 +62,8 @@ JWT_SECRET: A secret key for JWT token encryption.
 3. Frontend Setup (React)
 ```bash
 cd ../client
+```
+```bash
 npm install
 ```
 add following info. in .env file
@@ -72,6 +78,8 @@ This variable defines the API URL that frontend will use to make requests to the
 Navigate to the doctor-appointment directory and run the backend:
 ```bash
 cd doctor-appointment
+```
+```bash
 node server.js
 ```
 This will start the server on http://localhost:5000.
@@ -80,6 +88,8 @@ This will start the server on http://localhost:5000.
 In a new terminal window, navigate to the client directory and run the frontend:
 ```bash
 cd client
+```
+```bash
 npm start
 ```
 This will start the frontend on http://localhost:5173 (Vite default port).
