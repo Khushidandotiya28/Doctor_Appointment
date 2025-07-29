@@ -30,7 +30,7 @@ Ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/khushidandotiya28/doctor-appointment.git
+git clone https://github.com/Khushidandotiya28/doctor-appointment.git
 ```
 ```bash
 cd doctor-appointment
