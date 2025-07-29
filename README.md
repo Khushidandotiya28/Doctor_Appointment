@@ -15,36 +15,6 @@ A full-stack web application for booking and managing doctor appointments, built
 
 ---
 
-## 📁 Folder Structure---
--client
-
-   
--config
-
-
--controllers
-
-
--middlewares
-
-
--models
-
-
--routes
-
-
--.env
-
-
--server.js
-
-
--README.md
-
-
----
-
 ## ⚙️ Prerequisites
 
 Ensure you have the following installed:
